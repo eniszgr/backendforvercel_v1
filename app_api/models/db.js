@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var dbURI = "mongodb://localhost/mekanbul";
+var dbURI = "mongodb+srv://Enis:enis@cluster0.zcfg2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 mongoose.connect(dbURI);
 mongoose.connection.on("connected",function(){
     console.log(dbURI+" adresindeki veri tabanına bağlanıldı");
